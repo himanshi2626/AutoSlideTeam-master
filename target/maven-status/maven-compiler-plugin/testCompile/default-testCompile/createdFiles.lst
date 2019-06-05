@@ -1,0 +1,14 @@
+TestRunner\loginSteps\Email_Signin_paidUser_stepDefinition.class
+TestRunner\loginSteps\Forgotpassword.class
+TestRunner\loginSteps\Login_step_definition.class
+TestRunner\loginSteps\Facebook_signin_paid_user_stepDefinition.class
+TestRunner\loginSteps\GooglePlus_signin_paid_user_stepDefinitio.class
+TestRunner\SetupClass.class
+TestRunner\loginSteps\SignUp_Step.class
+TestRunner\loginSteps\Facebook_create_sigin_unpaid_stepDefin.class
+TestRunner\TestRun.class
+TestRunner\loginSteps\Google_plus_browser_clear_Step.class
+TestRunner\loginSteps\Google_plus_create_unpaid_defination.class
+TestRunner\loginSteps\TakeImageStep.class
+TestRunner\loginSteps\Facebook_signin_Unpaid_stepDefinition.class
+TestRunner\loginSteps\Fbpaid_User_logout.class
