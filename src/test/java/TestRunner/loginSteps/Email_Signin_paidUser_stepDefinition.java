@@ -87,7 +87,7 @@ public class Email_Signin_paidUser_stepDefinition extends SetupClass {
 
 	@Then("^Select a product as Project Scoping Powerpoint$")
 	public void select_product() throws InterruptedException {
-		WebDriverWait wait = new WebDriverWait(driver, 30);
+		WebDriverWait wait = new WebDriverWait(driver, 100);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(SignupObject.Select_item));
 		WebElement et = driver.findElement(SignupObject.Select_item);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
