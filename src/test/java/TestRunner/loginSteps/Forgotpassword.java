@@ -78,7 +78,7 @@ import webApp.PerformAction;
 
 		@And("^Select as a Project Scoping Powerpoint\\.$")
 		public void select_product() throws InterruptedException {
-			WebDriverWait wait1 = new WebDriverWait(driver, 30);
+			WebDriverWait wait1 = new WebDriverWait(driver, 100);
 			wait1.until(ExpectedConditions.visibilityOfElementLocated(SignupObject.Select_item));
 			webelement = driver.findElement(SignupObject.Select_item);
 			webelement.click();
