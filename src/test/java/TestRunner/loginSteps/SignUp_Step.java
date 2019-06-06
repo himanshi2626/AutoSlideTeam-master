@@ -83,7 +83,7 @@ public class SignUp_Step extends SetupClass {
 		webelement = driver.findElement(SignupObject.Select_item);
 		wait.implictywait(driver);
 		webelement.click();
-		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(100, TimeUnit.SECONDS);
 	}
 
 	@Then("^Click on Download this presentation link\\.$")
