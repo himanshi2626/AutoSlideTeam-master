@@ -79,7 +79,7 @@ public class Facebook_create_sigin_unpaid_stepDefin extends SetupClass {
 
 	@And("^On the Scoping Powerpoint product\\.$")
 	public void on_the_Scoping_Powerpoint_product() throws InterruptedException {
-		WebDriverWait wait1 = new WebDriverWait(driver, 30);
+		WebDriverWait wait1 = new WebDriverWait(driver, 100);
 		wait1.until(ExpectedConditions.visibilityOfElementLocated(SignupObject.Select_item));
 		webelement = driver.findElement(SignupObject.Select_item);
 		webelement.click();
