@@ -7,9 +7,8 @@ public class SignupObject {
 		public static By Others = By.xpath("//p[text()='Others']");
 		
 		//public static By Select_item = By.cssSelector(".product-info>h2>a[title='Project Scoping Powerpoint Presentation Slides']");
-		
-		public static By Select_item = By.cssSelector(".product-info>h2>a[title='Project Scoping PowerPoint Presentation Slides |Project Scoping PPT | Project Scoping Presentation']");
-		
+		//public static By Select_item = By.cssSelector(".product-info>h2>a[title='Project Scoping PowerPoint Presentation Slides |Project Scoping PPT | Project Scoping Presentation']");
+		public static By Select_item = By.cssSelector(".custom-category-title");
 		
 		public static By Complete_desk=By.xpath("//p[text()='Complete Decks']");
 	
